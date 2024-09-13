@@ -58,7 +58,7 @@ if (isset($_POST['guess'])) {
 
     if ($userGuess === $computerGuess)
     {
-        echo "<br><h4>Computer chooses $computerGuess.</h4><br>"
+        echo "<br><h4>Computer chooses $computerGuess</h4><br>"
             ."<h2>It's a draw</h2>";
     }
     elseif (($userGuess === $options[0] && $computerGuess === $options[1]) ||
